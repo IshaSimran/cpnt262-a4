@@ -45,10 +45,6 @@ figure {
   align-items: center;
 }
 
-figure:hover {
-  color: white;
-}
-
 figure img {
   max-width: 100%;
   object-fit: cover;
@@ -67,6 +63,7 @@ figure figcaption {
   font-variant: small-caps;
   font-size: 1.5rem;
 
+  color: white;
   background-color: black;
   padding: 10px 5px 10px 5px;
 
