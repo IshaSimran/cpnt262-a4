@@ -39,11 +39,6 @@ figure {
   margin: 3rem;
   position: relative;
 
-  transition-property: width;
-  transition-duration: 2s;
-  transition-timing-function: linear;
-  transition-delay: 1s;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -51,11 +46,6 @@ figure {
 }
 
 figure:hover {
-  transform: scale(1.2);
-  transition-duration: 2s;
-  transition-timing-function: linear;
-  transition-delay: 1s;
-
   color: white;
 }
 
@@ -80,19 +70,7 @@ figure figcaption {
   background-color: black;
   padding: 10px 5px 10px 5px;
 
-  transition-property: width;
-  transition-duration: 2s;
-  transition-timing-function: linear;
-  transition-delay: 1s;
-
   border: 3px solid hotpink;
-}
-
-figure figcaption:hover {
-  transition-property: width;
-  transition-duration: 2s;
-  transition-timing-function: linear;
-  transition-delay: 1s;
 }
 
 figcaption a {
