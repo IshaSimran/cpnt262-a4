@@ -1,0 +1,125 @@
+body {
+  font-family: "Karla", sans-serif;
+
+  width: 100vw;
+  margin: auto;
+
+  background-color: lightpink;
+}
+
+/**** Headings *****/
+
+h1 {
+  font-size: 5rem;
+  font-weight: 500;
+  font-family: "Karla", sans-serif;
+  font-variant: small-caps;
+
+  text-align: center;
+  margin: 3rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: "Karla", sans-serif;
+  font-variant: small-caps;
+}
+
+/***** Image Gallery *****/
+
+.object {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+figure {
+  margin: 3rem;
+  position: relative;
+
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+figure:hover {
+  transform: scale(1.2);
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+
+  color: white;
+}
+
+figure img {
+  max-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+
+  border: 3px solid hotpink;
+}
+
+/***** Image Credit *****/
+
+figure figcaption {
+  position: relative;
+
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+  font-variant: small-caps;
+  font-size: 1.5rem;
+
+  background-color: black;
+  padding: 10px 5px 10px 5px;
+
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+
+  border: 3px solid hotpink;
+}
+
+figure figcaption:hover {
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+
+figcaption a {
+  text-decoration: none;
+  color: hotpink;
+}
+
+/****** Footer ******/
+
+footer {
+  text-align: center;
+  padding: 1rem 1rem 1rem;
+  font-size: 1.5rem;
+  font-family: "Karla", sans-serif;
+}
+
+/****** Media Queries *****/
+
+@media only screen and (max-width: 1220px) {
+  body {
+    width: 100vw;
+    margin: auto;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
