@@ -1,7 +1,7 @@
 'use strict';
 
 // const endpoint = '//localhost:3000/api/v0/gallery';     
-const endpoint = '';
+const endpoint = 'https://cpnt262-a4-isha.herokuapp.com/api/v0/gallery';
 
 fetch(endpoint)
 
