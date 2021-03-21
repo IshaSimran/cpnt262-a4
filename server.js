@@ -22,8 +22,8 @@ app.use(cors())
 //  Sets the global template variables
 app.use(function (req, res, next) {
   res.locals = {
-    siteHeading: "CPNT262 - A4",
-    subHeading: "JSON Gallery",
+    siteHeading: "Different Types of Flowers",
+    subHeading: "CPNT262 - A4 - JSON Image Gallery",
     copyright: "Isha Simran"
   }
   next()
