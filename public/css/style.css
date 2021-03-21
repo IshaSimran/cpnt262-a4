@@ -12,6 +12,8 @@ body {
 li {
   list-style-type: none;
   padding: 1rem 1rem 1rem;
+  color: black;
+  font-size: 1.5rem;
 }
 
 h1 {
