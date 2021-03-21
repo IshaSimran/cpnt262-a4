@@ -9,9 +9,9 @@ body {
 
 /**** Header *****/
 
-nav {
+li {
   list-style-type: none;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem;
 }
 
 h1 {
