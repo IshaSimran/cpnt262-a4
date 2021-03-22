@@ -2,9 +2,9 @@
 
 By Isha Simran
 
-- [GitHub Repo]()
+- [GitHub Repo](https://github.com/IshaSimran/cpnt262-a4)
 
-- [Heroku App Link]()
+- [Heroku App Link](https://cpnt262-a4-isha.herokuapp.com/)
 
 ## Attributions
 
